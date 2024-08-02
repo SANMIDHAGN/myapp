@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
+  
+  .logo {
+    height: 30px;
+  }
+  @media (max-width: 600px) {
+    .logo {
+      height: 20px;
+    }
+  }

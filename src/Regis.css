@@ -1,0 +1,81 @@
+/* Assuming you have a container with the class "big-box" */
+
+  
+  
+  /* Regis.css */
+
+/* Container styling */
+.signup-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  
+  }
+  
+  /* Form styling */
+  .signup-form form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+ 
+  }
+  
+  /* Label styling */
+  .signup-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  
+  }
+  
+  /* Input styling */
+  .signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+  }
+  
+  /* Button styling */
+  .signup-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .signup-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Paragraph styling */
+  .signup-form p {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Link styling */
+  .signup-form a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-form a:hover {
+    text-decoration: underline;
+  }
+  
